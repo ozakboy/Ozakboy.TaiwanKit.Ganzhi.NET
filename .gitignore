@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# AI 助理文檔與本機設定（不入版控）
+CLAUDE.md
+AI.md
+AI-Development-Guidelines.md
+STRATEGIC-DECISIONS.md
+.claude/
