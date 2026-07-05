@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/main/logo.png" width="128" alt="Ozakboy.TaiwanKit logo" />
+</p>
+
 # Ozakboy.TaiwanKit.Ganzhi.NET
 
 [繁體中文](https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/blob/main/README_zh-TW.md)

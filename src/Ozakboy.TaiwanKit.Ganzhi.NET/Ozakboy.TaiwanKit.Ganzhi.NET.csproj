@@ -25,6 +25,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
     <PackageReleaseNotes>Initial release: Gregorian↔lunar conversion (1901-2100, leap-month aware), 24 solar terms with minute precision (Taiwan time, astronomically computed and verified), Ganzhi four pillars (year/month/day/hour with LiChun or Lunar-New-Year year boundary), zodiac and lunar festivals. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
@@ -40,6 +41,7 @@
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\logo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
