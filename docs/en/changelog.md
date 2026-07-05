@@ -2,6 +2,12 @@
 
 All notable changes to **Ozakboy.TaiwanKit.Ganzhi.NET** are documented here.
 
+## [1.0.1] - 2026-07-05
+
+### Improved
+
+- Added the Ozakboy.TaiwanKit series logo as the NuGet package icon and README header
+
 ## [1.0.0] - 2026-07-05
 
 ### Added

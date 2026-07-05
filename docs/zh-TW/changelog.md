@@ -2,6 +2,12 @@
 
 **Ozakboy.TaiwanKit.Ganzhi.NET** 的所有重要變更記錄於此。
 
+## [1.0.1] - 2026-07-05
+
+### 功能優化
+
+- 加入 Ozakboy.TaiwanKit 系列 logo 作為 NuGet 套件圖示與 README 標頭
+
 ## [1.0.0] - 2026-07-05
 
 ### 新增功能

@@ -15,7 +15,7 @@
 
   <PropertyGroup>
     <PackageId>Ozakboy.TaiwanKit.Ganzhi.NET</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>Ozakboy.TaiwanKit.Ganzhi.NET</Title>
     <Authors>ozakboy</Authors>
     <Description>農曆/節氣/干支轉換套件（1901-2100）- Lunar calendar, 24 solar terms (minute precision) and Ganzhi (four pillars) conversion for .NET. Gregorian↔lunar conversion, zodiac, lunar festivals. Zero dependencies, works offline.</Description>
@@ -26,7 +26,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageReleaseNotes>Initial release: Gregorian↔lunar conversion (1901-2100, leap-month aware), 24 solar terms with minute precision (Taiwan time, astronomically computed and verified), Ganzhi four pillars (year/month/day/hour with LiChun or Lunar-New-Year year boundary), zodiac and lunar festivals. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <PackageReleaseNotes>Added the Ozakboy.TaiwanKit series logo as the NuGet package icon and README header. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
