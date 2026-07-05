@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>Ozakboy.TaiwanKit.Ganzhi.NET</RootNamespace>
+    <AssemblyName>Ozakboy.TaiwanKit.Ganzhi.NET</AssemblyName>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <Deterministic>true</Deterministic>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Ozakboy.TaiwanKit.Ganzhi.NET</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Ozakboy.TaiwanKit.Ganzhi.NET</Title>
+    <Authors>ozakboy</Authors>
+    <Description>農曆/節氣/干支轉換套件（1901-2100）- Lunar calendar, 24 solar terms (minute precision) and Ganzhi (four pillars) conversion for .NET. Gregorian↔lunar conversion, zodiac, lunar festivals. Zero dependencies, works offline.</Description>
+    <PackageTags>taiwan;lunar-calendar;ganzhi;solar-terms;chinese-calendar;bazi;taiwankit</PackageTags>
+    <PackageProjectUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReleaseNotes>Initial release: Gregorian↔lunar conversion (1901-2100, leap-month aware), 24 solar terms with minute precision (Taiwan time, astronomically computed and verified), Ganzhi four pillars (year/month/day/hour with LiChun or Lunar-New-Year year boundary), zodiac and lunar festivals. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.Ganzhi.NET/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
