@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tagline": "農曆/節氣/干支 .NET 套件"
+  },
+  "nav": {
+    "docs": "文件",
+    "changelog": "版本歷史",
+    "sponsor": "贊助"
+  },
+  "home": {
+    "hero": {
+      "title": "Ganzhi.NET",
+      "subtitle": "農曆互轉、二十四節氣精確到分、干支四柱、生肖與農曆節日——涵蓋 1901~2100,天文計算並經多來源驗證。零依賴、離線可用。",
+      "install": "立即安裝",
+      "github": "查看 GitHub"
+    },
+    "features": {
+      "title": "核心特色",
+      "items": {
+        "lunar": {
+          "title": "農曆互轉 1901~2100",
+          "desc": "國曆↔農曆雙向轉換,閏月以 IsLeapMonth 明確表示,不存在的日期用 TryToSolar 優雅拒絕。"
+        },
+        "terms": {
+          "title": "節氣精確到分",
+          "desc": "全精度 VSOP87D 星曆天文計算,經 USNO 與紫金山天文台等多來源逐分驗證;台灣時間 UTC+8。"
+        },
+        "ganzhi": {
+          "title": "干支四柱",
+          "desc": "年/月/日/時柱:年柱可選立春(命理)或初一(民俗)界線,月柱依節氣精確時刻切換,含晚子時規則。"
+        },
+        "festivals": {
+          "title": "生肖與農曆節日",
+          "desc": "除夕、春節、元宵、端午、中秋等節日查詢,含臘八一年兩次/零次特例;生肖同樣支援雙界線。"
+        }
+      }
+    },
+    "quickstart": {
+      "title": "快速開始",
+      "step1": "1. 安裝套件",
+      "step2": "2. 農曆與節氣",
+      "step3": "3. 干支與節日"
+    }
+  },
+  "docs": {
+    "title": "文件",
+    "intro": "選擇下方主題開始使用 Ganzhi.NET。",
+    "sections": {
+      "gettingStarted": "快速開始",
+      "api": "API 參考"
+    },
+    "wip": "本頁內容整理中,完整資訊請參考 GitHub repo 的 README_zh-TW.md。"
+  },
+  "changelog": {
+    "title": "版本歷史",
+    "intro": "完整變更紀錄請見 GitHub repo 的 docs/zh-TW/changelog.md。"
+  },
+  "sponsor": {
+    "title": "贊助",
+    "intro": "如果 Ganzhi.NET 對您有幫助,歡迎透過加密貨幣或 Binance Pay 贊助開發者。",
+    "crypto": {
+      "title": "加密貨幣"
+    },
+    "usdt": {
+      "title": "USDT (BEP20)",
+      "warningTitle": "僅限 BSC (Binance Smart Chain / BEP20) 網路",
+      "warningBody": "匯到其他網路 (ERC20 / TRC20 / Solana 等) 將永久遺失,無法找回。"
+    },
+    "binancePay": {
+      "title": "Binance Pay",
+      "desc": "掃描以透過 Binance Pay 贊助"
+    },
+    "copy": "複製",
+    "copied": "已複製 ✓"
+  }
+}

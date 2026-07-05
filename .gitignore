@@ -435,3 +435,12 @@ AI-Development-Guidelines.md
 STRATEGIC-DECISIONS.md
 .claude/
 開發計畫書.md
+
+# Nuxt site (site/) — 介紹網站建置產物
+site/node_modules/
+site/.nuxt/
+site/.output/
+site/.data/
+site/.cache/
+site/dist/
+site/content/

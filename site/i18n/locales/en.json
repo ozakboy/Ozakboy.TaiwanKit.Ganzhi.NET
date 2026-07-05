@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tagline": "Lunar calendar for .NET"
+  },
+  "nav": {
+    "docs": "Docs",
+    "changelog": "Changelog",
+    "sponsor": "Sponsor"
+  },
+  "home": {
+    "hero": {
+      "title": "Ganzhi.NET",
+      "subtitle": "Lunar conversion, minute-precision solar terms, Ganzhi four pillars, zodiac and lunar festivals — covering 1901-2100, astronomically computed and cross-verified. Zero dependencies, offline.",
+      "install": "Install Now",
+      "github": "View on GitHub"
+    },
+    "features": {
+      "title": "Core Features",
+      "items": {
+        "lunar": {
+          "title": "Lunar Conversion 1901-2100",
+          "desc": "Bidirectional Gregorian↔lunar conversion; leap months explicitly flagged, non-existent dates gracefully rejected via TryToSolar."
+        },
+        "terms": {
+          "title": "Minute-precision Solar Terms",
+          "desc": "Computed from the full-precision VSOP87D ephemeris, verified minute-by-minute against USNO and observatory data; Taiwan time UTC+8."
+        },
+        "ganzhi": {
+          "title": "Ganzhi Four Pillars",
+          "desc": "Year/month/day/hour pillars: selectable LiChun or Lunar-New-Year year boundary, month pillars switch at exact term times, late-Zi rule included."
+        },
+        "festivals": {
+          "title": "Zodiac & Lunar Festivals",
+          "desc": "New Year's Eve, Lunar New Year, Lantern, Dragon Boat, Mid-Autumn and more — incl. the Laba two-or-zero-per-year edge case."
+        }
+      }
+    },
+    "quickstart": {
+      "title": "Quick Start",
+      "step1": "1. Install the package",
+      "step2": "2. Lunar dates & solar terms",
+      "step3": "3. Ganzhi & festivals"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "intro": "Pick a topic below to get started with Ganzhi.NET.",
+    "sections": {
+      "gettingStarted": "Getting Started",
+      "api": "API Reference"
+    },
+    "wip": "Page content coming soon — see README.md in the GitHub repo."
+  },
+  "changelog": {
+    "title": "Changelog",
+    "intro": "See docs/en/changelog.md in the GitHub repo for the full history."
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "intro": "If Ganzhi.NET helps you, consider sponsoring the developer via cryptocurrency or Binance Pay.",
+    "crypto": {
+      "title": "Cryptocurrency"
+    },
+    "usdt": {
+      "title": "USDT (BEP20)",
+      "warningTitle": "BSC (Binance Smart Chain / BEP20) network only",
+      "warningBody": "Sending to other networks (ERC20 / TRC20 / Solana, etc.) will result in permanent loss of funds."
+    },
+    "binancePay": {
+      "title": "Binance Pay",
+      "desc": "Scan to sponsor via Binance Pay"
+    },
+    "copy": "Copy",
+    "copied": "Copied ✓"
+  }
+}
