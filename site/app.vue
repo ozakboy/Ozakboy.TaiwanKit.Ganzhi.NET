@@ -10,9 +10,9 @@ const jsonLd = {
   operatingSystem: 'Cross-platform (.NET Standard 2.0+, .NET 8/9/10)',
   description:
     'Lunar calendar, 24 solar terms and Ganzhi (four pillars) conversion for .NET covering 1901-2100. Minute-precision solar term times astronomically computed from the VSOP87D ephemeris and cross-verified. Leap-month-aware lunar conversion, zodiac and lunar festivals. Zero runtime dependencies.',
-  url: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/',
+  url: 'https://ganzhi.ozakboy.life/',
   downloadUrl: 'https://www.nuget.org/packages/Ozakboy.TaiwanKit.Ganzhi.NET/',
-  image: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/logo.png',
+  image: 'https://ganzhi.ozakboy.life/logo.png',
   author: {
     '@type': 'Person',
     name: 'ozakboy',

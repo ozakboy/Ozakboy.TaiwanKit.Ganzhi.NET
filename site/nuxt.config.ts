@@ -5,14 +5,14 @@ export default defineNuxtConfig({
 
   // Nuxt site config (used by sitemap module to prepend absolute URL)
   site: {
-    url: 'https://ozakboy.github.io',
+    url: 'https://ganzhi.ozakboy.life',
     name: 'Ozakboy.TaiwanKit.Ganzhi.NET',
     description:
       'Lunar calendar, 24 solar terms (minute precision) and Ganzhi four-pillars conversion for .NET, covering 1901-2100. Zero dependencies, works offline.',
   },
 
   app: {
-    baseURL: '/Ozakboy.TaiwanKit.Ganzhi.NET/',
+    baseURL: '/',
     head: {
       title: 'Ganzhi.NET — 農曆/節氣/干支轉換 .NET 套件',
       htmlAttrs: { lang: 'zh-TW' },
@@ -47,8 +47,8 @@ export default defineNuxtConfig({
           content:
             'Gregorian↔lunar conversion (1901-2100), minute-precision solar terms and Ganzhi four pillars. Astronomically computed, cross-verified, zero dependencies.',
         },
-        { property: 'og:url', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/' },
-        { property: 'og:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/logo.png' },
+        { property: 'og:url', content: 'https://ganzhi.ozakboy.life/' },
+        { property: 'og:image', content: 'https://ganzhi.ozakboy.life/logo.png' },
         { property: 'og:image:alt', content: 'Ozakboy.TaiwanKit logo' },
         { property: 'og:locale', content: 'zh_TW' },
         { property: 'og:locale:alternate', content: 'en_US' },
@@ -61,12 +61,12 @@ export default defineNuxtConfig({
           content:
             'Lunar conversion 1901-2100, minute-precision solar terms, Ganzhi four pillars. Zero dependencies.',
         },
-        { name: 'twitter:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/logo.png' },
+        { name: 'twitter:image', content: 'https://ganzhi.ozakboy.life/logo.png' },
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/Ozakboy.TaiwanKit.Ganzhi.NET/logo.png' },
-        { rel: 'apple-touch-icon', href: '/Ozakboy.TaiwanKit.Ganzhi.NET/logo.png' },
-        { rel: 'canonical', href: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.Ganzhi.NET/' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' },
+        { rel: 'apple-touch-icon', href: '/logo.png' },
+        { rel: 'canonical', href: 'https://ganzhi.ozakboy.life/' },
       ],
     },
   },
@@ -91,7 +91,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://ozakboy.github.io',
+    baseUrl: 'https://ganzhi.ozakboy.life',
     locales: [
       { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
       { code: 'en', name: 'English', file: 'en.json' },
